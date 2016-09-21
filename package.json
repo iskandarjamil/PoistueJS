@@ -2,7 +2,7 @@
   "name": "PoistueJS",
   "description": "Simple task runner of Javascript Library, simple task doesn't wasted to be repeated.",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/iskandarjamil/PoistueJS",
   "author": {
     "name": "Iskandar Jamil",
