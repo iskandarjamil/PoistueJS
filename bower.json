@@ -1,17 +1,33 @@
 {
   "name": "poistuejs",
-  "version": "1.0.0",
+  "description": "Simple task runner of Javascript Library, simple task doesn't wasted to be repeated.",
   "main": [
-    "./dist/css/PoistueJS.min.css",
-    "./dist/js/PoistueJS.min.js",
-  ],
-  "ignore": [
-    "**/.*",
-    "_config.yml",
-    "CNAME",
-    "composer.json"
+    "dist/css/PoistueJS.min.css",
+    "dist/js/PoistueJS.min.js"
   ],
   "dependencies": {
     "jquery": ">= 1.9.0"
-  }
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "jquery-plugin",
+    "poistuejs"
+  ],
+  "authors": [
+    "Iskandar Jamil <iskandar.jam@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets",
+    "test",
+    "tests"
+  ],
+  "private": false
 }
