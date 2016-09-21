@@ -1,0 +1,13 @@
+{
+    "name": "iskandarjamil/poistuejs",
+    "description": "Simple task runner of Javascript Library, simple task doesn't wasted to be repeated.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iskandar Jamil",
+            "email": "iskandar.jam@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
