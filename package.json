@@ -1,7 +1,7 @@
 {
   "name": "PoistueJS",
   "description": "Simple task runner of Javascript Library, simple task doesn't wasted to be repeated.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "homepage": "https://github.com/iskandarjamil/PoistueJS",
   "author": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:jenapps/poistuejs.git"
+    "url": "https://github.com/iskandarjamil/PoistueJS.git"
   },
   "bugs": {
     "url": "https://github.com/iskandarjamil/PoistueJS/issues"
