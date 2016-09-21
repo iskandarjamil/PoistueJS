@@ -1,0 +1,27 @@
+@import "compass";
+
+$color-1: #333333;
+$color-2: #999999;
+$color-3: #808080;
+$color-4: #bfbfbf;
+$color-5: #cccccc;
+$color-6: #ededed;
+$color-7: #d7d7d7;
+$color-8: #666666;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-xbold: 900;
+
+$screen-xxs-max: 480px;
+$screen-xs-min: 481px;
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-sm-max: 991px;
+$screen-md-min: 992px;
+$screen-md-max: 1023px;
+$screen-lg-min: 1024px;
+
+$media-ipad: "only screen and (min-device-width : "'#{$screen-sm-min}'") and (max-device-width : "'#{$screen-md-max}'")";

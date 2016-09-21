@@ -1,0 +1,33 @@
+default:
+  description: 'Default (production) build'
+  tasks:
+    - prod
+dev:
+  description: 'Development build'
+  tasks:
+    - 'concurrent:devJS'
+    - 'concurrent:devScss'
+img:
+  description: 'Image tasks'
+  tasks:
+    - 'concurrent:img'
+devimg:
+  description: 'Development build and image tasks'
+  tasks:
+    - dev
+    - img
+prod:
+  description: 'Production build'
+  tasks:
+    - 'concurrent:prodJS'
+    - 'concurrent:prodJSConcat'
+    - 'concurrent:prodScss'
+    - img
+devScss:
+  description: 'Scss compile :nested'
+  tasks:
+    - 'concurrent:devScss'
+prodScss:
+  description: 'Scss compile :compressed'
+  tasks:
+    - 'concurrent:prodScss'

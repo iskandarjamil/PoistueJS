@@ -1,0 +1,55 @@
+@import "../variable";
+
+$color_set_1: #666;
+$color_set_2: #999;
+$color_set_3: #ededed;
+
+.scroll-balloon{
+  padding: 0;
+  text-align: center;
+  position: fixed;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid $color_set_2;
+  color: $color_set_1;
+  background: $color_set_3;
+
+  i{
+    height: 40px;
+    width: 40px;
+    line-height: 33px;
+    font-size: 33px;
+  }
+
+  &[data-placement*="bottom"]{
+    bottom: 10px;
+  }
+  &[data-placement*="top"]{
+    top: 10px;
+  }
+  &[data-placement*="right"]{
+    right: -100px;
+
+    &.in{
+      right: 10px;
+    }
+  }
+  &[data-placement*="left"]{
+    left: -100px;
+
+    &.in{
+      left: 10px;
+    }
+  }
+
+  &.animation{
+    &[data-placement*="right"]{
+      @include transition(right 0.4s ease-out);
+    }
+    &[data-placement*="left"]{
+      @include transition(left 0.4s ease-out);
+    }
+  }
+}

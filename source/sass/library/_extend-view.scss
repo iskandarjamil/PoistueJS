@@ -1,0 +1,50 @@
+@import "../variable";
+
+.extend-view{
+  .item-ev{
+    display: none;
+
+    &.in{
+      display: block;
+    }
+  }
+  &.effect-zoom{
+    .item-ev{
+      display: block;
+      top: 0px;
+      left: -9999em;
+      position: absolute;
+      opacity: 0;
+      @include transform(scale(0.01, 0.01));
+      @include transition(transform 0.1s ease-out, opacity 0.1s ease-out);
+
+      &.in{
+        display: block;
+        position: relative;
+        top: inherit;
+        left: inherit;
+        opacity: 1;
+        @include transform(scale(1, 1));
+        @include transition(transform 0.3s ease-out, opacity 0.3s ease-out);
+      }
+    }
+  }
+
+  &.effect-slide-up{
+    .item-ev{
+      display: block;
+      top: 20px;
+      position: absolute;
+      opacity: 0;
+      @include transition(top 0.1s ease-out, opacity 0.3s ease-out);
+
+      &.in{
+        display: block;
+        position: relative;
+        top: 0px;
+        opacity: 1;
+        @include transition(top 0.3s ease-out, opacity 0.3s ease-out);
+      }
+    }
+  }
+}
