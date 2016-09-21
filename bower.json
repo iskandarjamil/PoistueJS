@@ -1,0 +1,17 @@
+{
+  "name": "poistuejs",
+  "version": "1.0.0",
+  "main": [
+    "./dist/css/PoistueJS.min.css",
+    "./dist/js/PoistueJS.min.js",
+  ],
+  "ignore": [
+    "**/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
