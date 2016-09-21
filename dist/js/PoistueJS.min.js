@@ -1,5 +1,5 @@
 /*!
- * PoistueJS v0.0.1 (https://github.com/iskandarjamil/PoistueJS)
+ * PoistueJS v1.0.0 (https://github.com/iskandarjamil/PoistueJS)
  * Copyright 2015-2016 Iskandar Jamil <iskandar.jam@gmail.com>
  * Licensed under MIT (https://github.com/iskandarjamil/PoistueJS/blob/master/LICENSE)
  */
