@@ -18,11 +18,11 @@ To get started, check out <http://jen-apps.iskandarjamil.com/poistuejs>!
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/iskandarjamil/PoistueJS/archive/v1.0.0.zip)
+- [Download the latest release.](https://github.com/iskandarjamil/PoistueJS/archive/v1.0.2.zip)
 - Clone the repo: `git clone https://github.com/iskandarjamil/PoistueJS.git`
-- Install with [npm](https://www.npmjs.com): `npm install PoistueJS@1.0.0`
+- Install with [npm](https://www.npmjs.com): `npm install PoistueJS`
 - Install with [Composer](https://getcomposer.org): `composer require iskandarjamil/poistuejs`
-- Install with [Bower](https://bower.io): `bower install poistuejs#v1.0.0`
+- Install with [Bower](https://bower.io): `bower install poistuejs`
 
 Read the [Installation](http://jen-apps.iskandarjamil.com/poistuejs/#installation) for information on the framework contents, templates and examples, and more.
 

@@ -1,5 +1,5 @@
 /*!
- * PoistueJS v1.0.0 (https://github.com/iskandarjamil/PoistueJS)
+ * PoistueJS v1.0.2 (https://github.com/iskandarjamil/PoistueJS)
  * Copyright 2015-2016 Iskandar Jamil <iskandar.jam@gmail.com>
  * Licensed under MIT (https://github.com/iskandarjamil/PoistueJS/blob/master/LICENSE)
  */
@@ -506,7 +506,7 @@ PoistueJS.prototype.lazyload = function(options){
         callback();
       }
     };
-    t.load_external(o.bower_assets+'/jquery.lazyload/jquery.lazyload.js', complete);
+    t.load_external(o.bower_assets+'/lazyload/build/lazyload.min.js', complete);
   };
 
 	t.lazyload._init = function(element, options){
